@@ -21,7 +21,7 @@ class Artist
   end
   
   def self.find(name)
-    self.all.
+    self.all.find{|artist| artist.name
     
   
   def self.find_by_name(name)
